@@ -1,0 +1,58 @@
+{
+  "keys": {}, 
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr", 
+          "repr": "{u'label_tool/LabelToolPlugin': [1]}"
+        }
+      }, 
+      "groups": {
+        "plugin__label_tool__LabelToolPlugin__1": {
+          "keys": {}, 
+          "groups": {
+            "dock_widget__LabelToolWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr", 
+                  "repr": "True"
+                }, 
+                "parent": {
+                  "type": "repr", 
+                  "repr": "None"
+                }
+              }, 
+              "groups": {}
+            }
+          }
+        }
+      }
+    }, 
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)", 
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb000100000000004000000013000003a2000003920000004a000000420000039800000388000000000000')", 
+          "pretty-print": "     @       J B       "
+        }, 
+        "state": {
+          "type": "repr(QByteArray.hex)", 
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd00000001000000030000034f00000312fc0100000001fb00000066007300610072005f006c006100620065006c005f0074006f006f006c005f005f004c006100620065006c0054006f006f006c0050006c007500670069006e005f005f0031005f005f004c006100620065006c0054006f006f006c00570069006400670065007401000000000000034f0000011a00ffffff0000034f0000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')", 
+          "pretty-print": "                 flabel_tool__LabelToolPlugin__1__LabelToolWidget                            6MinimizedDockWidgetsToolbar        "
+        }
+      }, 
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr", 
+              "repr": "8"
+            }
+          }, 
+          "groups": {}
+        }
+      }
+    }
+  }
+}

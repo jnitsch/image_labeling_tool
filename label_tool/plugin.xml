@@ -1,0 +1,12 @@
+<library path="lib/liblabel_tool">
+  <class name="label_tool/LabelToolPlugin" type="label_tool::LabelToolPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A GUI for assisting in Labeling and visualization of choosen imges.
+    </description>
+    <qtgui>
+      <label>Label Tool Plugin</label>
+      <icon type="theme">system-help</icon>
+      <statustip>A GUI for assisting with labeling stuff</statustip>
+    </qtgui>
+  </class>
+</library>

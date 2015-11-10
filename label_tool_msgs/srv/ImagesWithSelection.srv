@@ -1,0 +1,3 @@
+# images with preselection which should be labeled
+label_tool_msgs/ImageWithPolygonEdges[] images
+---

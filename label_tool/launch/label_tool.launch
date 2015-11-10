@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- loading files for labeling global so that it can be found by rqt plugin -->
+  <rosparam command="load" file="$(find label_tool)/config/label.yaml" />
+  <param name="path_for_img_destination" value="$(find label_tool)/data/"/>
+ 	
+ 	<node name="labeltool_rqt" pkg="rqt_gui" type="rqt_gui" respawn="false"
+	output="screen" args="--perspective-file $(find label_tool)/config/label_tool.perspective" >     
+    </node>
+</launch>

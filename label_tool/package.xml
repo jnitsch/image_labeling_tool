@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>label_tool</name>
+  <version>0.0.0</version>
+  <description>The label_tool package</description>
+
+  <maintainer email="julia.nitsch@gmail.com">Julia Nitsch</maintainer>
+
+
+
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  
+  <depend>geometry_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>rqt_gui</depend>
+  <depend>rqt_gui_cpp</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

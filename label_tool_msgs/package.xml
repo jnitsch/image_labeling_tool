@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>label_tool_msgs</name>
+  <version>0.0.0</version>
+  <description>The label_tool_msgs package</description>
+
+  <maintainer email="julia.nitsch@gmail.com">Julia Nitsch</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  <depend>message_generation</depend>
+  <depend>sensor_msgs</depend>
+  
+</package>
