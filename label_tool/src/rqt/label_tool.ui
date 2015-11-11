@@ -287,14 +287,14 @@ p, li { white-space: pre-wrap; }
         <number>0</number>
        </property>
        <item>
-        <widget class="QPushButton" name="saveCurrentImg">
+        <widget class="QPushButton" name="saveSelection">
          <property name="text">
           <string>save current selection</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="saveSelection">
+        <widget class="QPushButton" name="saveCurrentImg">
          <property name="text">
           <string>save whole img</string>
          </property>
