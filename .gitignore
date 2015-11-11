@@ -33,3 +33,4 @@ CMakeLists.txt.user
 core
 .idea/
 data/
+label.yaml
